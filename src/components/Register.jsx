@@ -8,6 +8,7 @@ const initialValues = {
     email:"",
     password:""
 }
+
 export const errorMessages = {
     ad:"Adınızı en az 3 karakter giriniz",
     soyad:"Adınızı en az 3 karakter giriniz",
