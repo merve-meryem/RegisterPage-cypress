@@ -94,7 +94,7 @@ setIsValid(true)
       <Form onSubmit={handleSubmit} >
         <FormGroup>
           <Label for="ad">Ad</Label>
-          <Input id="ad" name="ad" placeholder="Adınızı girin" type="text" onChange= {handleChange} value= {FormData.ad} invalid={errors.ad} data-cy="ad-input" />
+          <Input id="ad" name="ad" placeholder="Adınızı giriniz" type="text" onChange= {handleChange} value= {FormData.ad} invalid={errors.ad} data-cy="ad-input" />
         {errors.ad &&
     <FormFeedback data-cy="error-message">
       {errorMessages.ad}
@@ -105,7 +105,7 @@ setIsValid(true)
           <Input
             id="soyad"
             name="soyad"
-            placeholder="Soyadınızı girin"
+            placeholder="Soyadınızı giriniz"
             type="text"
             onChange= {handleChange}
             value= {FormData.soyad}
@@ -122,7 +122,7 @@ setIsValid(true)
           <Input
             id="email"
             name="email"
-            placeholder="Emailinizi girin"
+            placeholder="Emailinizi giriniz"
             type="email"
             onChange= {handleChange}
             value= {FormData.email}
@@ -139,7 +139,7 @@ setIsValid(true)
           <Input
             id="password"
             name="password"
-            placeholder="Parolanızı girin"
+            placeholder="Parolanızı giriniz"
             type="password"
             onChange= {handleChange}
             value= {FormData.password}
